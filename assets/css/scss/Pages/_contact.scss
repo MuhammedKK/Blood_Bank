@@ -1,0 +1,117 @@
+/* Start Contact Info Section */
+.contact-information {
+    background:url('../../assets/imgs/subtle-pattern-1.jpg') no-repeat;
+    background-size:cover;
+    padding:40px 0;
+    .breadcrumb {
+        text-align: left;
+    }
+    .contact-boxes {
+        .model {
+            background-color:#fff;
+            border:1px solid #CCC;
+            box-shadow: 1px 1px 1px 1px #CCC;
+            margin:10px;
+            h3 {
+                background-color:$btn_color;
+                color:#fff;
+                padding:15px 0;
+                font-size: 20px;
+                margin-top:0;
+            }
+            input,textarea {
+                display: block;
+                width:75%;
+                margin:auto;
+                padding:15px 10px;
+                border-radius:10px;
+                border:1px solid #CCC;
+                margin-bottom: 20px;
+            }
+            textarea {
+                max-height: 92px;
+            }
+            span {
+                display: block;
+            }
+            .main-btn {
+                margin:10px 0;
+                width:200px;
+                border-radius:5px;
+            }
+            .logo{
+                display: block;
+                margin: 20px 0;
+                border-bottom:1px solid #ccc;
+                padding:20px 0;
+                img {
+                    max-width: 38%;
+                }
+            }
+            ul {
+                &:first-of-type {
+                    text-align: left;
+                    margin-left:20px;
+                    li {
+                        margin-bottom:20px;
+                        font-size:18px;
+                        font-weight: bold;
+                        color:$btn_color;
+                    }
+                }
+            }
+            h4 {
+                font-size: 23px;
+                padding: 32px 0;
+                color:$heading_color;
+            }
+            .social {
+                margin-bottom:30px;
+                li {
+                    display: inline-block;
+                    margin:5px;
+                    a {
+                        font-size:40px;
+                        transition:all .5s ease-in-out;
+                        width:50px;
+                        height:50px;
+                        line-height: 50px;
+                        border-radius: 5px;
+                        @media #{$mobile_screen} {
+                            font-size:27px;
+                            width:35px;
+                            height:35px;
+                            line-height: 35px;
+                        }
+                        &.fa-facebook {
+                            background-color:#3b5998;
+                            color:#fff
+                           
+                        }
+                        &.fa-twitter {
+                            background-color:#1da1f2 !important;
+                            color:#fff;
+                        }
+
+                        &.fa-youtube {
+                            background-color:#ff0000;
+                            color:#fff
+                        }
+                        &.fa-youtube:hover {
+
+                        }
+                        &.fa-pinterest {
+                            background-color:#bd081c;
+                            color:#fff
+                        }
+                        &.fa-linkedin {
+                            background-color:#0077b5;
+                            color:#fff
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ENd Contact Info Section */

@@ -1,0 +1,37 @@
+/* Start Sign up Section */
+
+.signup {
+    background:url('../../assets/imgs/subtle-pattern-1.jpg');
+    background-size:cover;
+    padding:40px 0;
+    form {
+        input,select {
+            display: block;
+            width:80%;
+            margin:auto;
+            padding:20px;
+            margin-bottom:30px;
+        }
+        input[type="checkbox"],input[type="submit"] {
+            display:inline-block;
+        }
+        input[type="checkbox"] {
+            width:auto;
+            margin-left:10px;
+        }
+        input[type="submit"] {
+            width:250px;
+            background-color:$heading_color;
+            border:1px solid $heading_color;
+            border-radius:5px;
+            color:#fff;
+            cursor:pointer;
+            transition:all 1s ease-in-out;
+            &:hover {
+                transform:rotate(8deg);
+            }
+        }
+    }
+}
+
+/* End Sign up Section */

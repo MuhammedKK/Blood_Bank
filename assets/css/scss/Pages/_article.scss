@@ -1,0 +1,50 @@
+/* Start Article Image */
+
+.article-img {
+    background: url('../../assets/imgs/subtle-pattern-1.jpg') no-repeat;
+    background-size:cover;
+    padding:40px 0;
+    img {
+        width:60%;
+        margin:auto;
+        border:1px solid #CCC;
+    }
+}
+
+.art-details {
+    .art-heading {
+        background-color:$btn_color;
+        color:#fff;
+        overflow:hidden;
+        padding:10px;
+        border:1px solid #CCC;
+        margin-bottom:25px;
+        h3 {
+            float: left;
+            margin:0;
+        }
+        i {
+            float:right;
+            border:1px solid #CCC;
+            width:40px;
+            height:40px;
+            line-height:40px;
+            text-align: center;
+            border-radius:50%;
+            cursor: pointer;
+            transition:all .3s ease-in-out;
+            &:hover {
+                background-color:$heading_color;
+            }
+            
+        }
+    }
+    .art-desc {
+        p {
+            color:$btn_color;
+            font-size:17px;
+        }
+    }
+}
+
+/* End Article Image */

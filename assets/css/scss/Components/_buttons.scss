@@ -1,0 +1,16 @@
+.main-btn {
+    color: #FFF !important;
+    background-color: $btn_color;
+    border-radius: 7px;
+    transition:all .5s ease-in-out;
+    padding:10px 0;
+    width:100px;
+    display: inline-block;
+    text-align: center;
+    &:hover {
+        border-bottom:none !important;
+        transform:scale(1.1);
+        background-color: $btn_color !important;
+        color: $heading_color !important;
+    }
+}

@@ -1,0 +1,63 @@
+/* Start Login Form */
+
+.login {
+    background:url('../../assets/imgs/subtle-pattern-1.jpg') no-repeat;
+    background-size: cover;
+     padding:60px 0;
+     .login-form {
+         background-color: #fff;
+         border-radius:10px;
+         .login-logo {
+            display: block;
+            padding: 25px 0;
+            transform: scale(1.1);
+         }
+         form {
+             input[type="text"],
+             input[type="password"]           
+             {
+                display: block;
+                width:80%;
+                margin:auto;
+                padding: 15px 10px;
+                margin-bottom:30px;
+                border-radius: 5px;
+                box-shadow: none;
+                border:1px solid #999;
+             }
+             .check {
+                text-align: left;
+                margin-left: 26px;
+            }
+         }
+         .forget-pass {
+            text-align: right;
+            display: block;
+            margin-right: 25px;
+            img {
+                max-width:3%;
+            }
+         }
+         .login-btns {
+            display: block;
+            padding: 50px 0;
+            a {
+                display: inline-block;
+                width: 225px;
+                background-color:$btn_color;
+                color: #fff;
+                padding: 20px;
+                border: 1px solid $btn_color;
+                border-radius: 5px;
+                margin-right: 14px;
+                margin-bottom: 20px;
+                &:last-of-type{
+                    background-color:$heading_color;
+                    border:1px solid $heading_color;
+                }
+            }
+         }
+     }
+}
+
+/* End Login Form */

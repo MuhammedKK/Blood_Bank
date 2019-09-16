@@ -1,0 +1,24 @@
+/* Start Who Us Section */
+
+.who-us {
+    background:url('../../assets/imgs/subtle-pattern-1.jpg') no-repeat;
+    background-size: cover;
+     padding:90px 0;
+     .who-us-contnet {
+        background: #fff;
+        border: 1px solid #CCC;
+        padding: 20px;
+        margin: 30px 0 20px;
+        box-shadow: 1px 1px 1px 1px #CCC;
+         .who-us-logo {
+            display: block;
+            padding: 25px 0;
+            transform: scale(1.1);
+         }
+         p {
+             font-size: 18px
+         }
+     }
+}
+
+/* End Who Us Section */

@@ -1,0 +1,101 @@
+.footer-one {
+    background-color:#333;
+    color:#fff;
+    padding:40px 0;
+    .about-app {
+        a {
+            img {
+                @media #{$mobile_screen} {
+                    max-width:50%;
+                }
+            }
+        }
+    }
+    .app-links {
+        
+        li {
+            margin-bottom: 20px;
+            a {
+                color:#fff !important;
+                font-size: 20px;
+                &:hover {
+                    color:$heading_color !important;
+                }
+                @media #{$mobile_screen} {
+                    font-size: 18px !important;
+                }
+            }
+            a.active {
+                color:$heading_color !important;
+            }
+        }
+        padding-top:10px;
+    }
+    .app-status {
+        h3 {
+            color:$heading_color;
+            margin-bottom:40px;
+        }
+        a {
+            display: inline-block;
+            margin-bottom: 30px;
+            transition:all .5s ease-in-out;
+            &:hover {
+                background-color:#fff;
+                color:#000;
+                border-radius: 10px
+            }
+        }
+    }
+}
+
+/* Start Footer 2  */
+
+footer {
+    padding:15px 0 10px;
+    background-color:#222;
+    color:#fff;
+    ul {
+        li {
+            display:inline-block;
+            a {
+                color:#fff;
+                font-size:16px;
+                margin:0 5px;
+                transition:all .5s ease-in-out;
+                @media #{$mobile_screen} {
+                    font-size: 21px !important;
+                }
+                &.fa-facebook:hover {
+                    color:#3b5998;
+                   transform:scale(1.1);
+                   
+                }
+                &.fa-instagram:hover {
+                    color:#e1306c;
+                   transform:scale(1.1);
+                } 
+                &.fa-twitter:hover {
+                    color:#1da1f2;
+                   transform:scale(1.1);
+                } 
+                &.fa-whatsapp:hover {
+                    color:#25d366;
+                   transform:scale(1.1);
+                }
+            }
+        }
+    }
+    .copy-right,.designer {
+        font-size: 18px;
+        @media #{$mobile_screen} {
+            font-size: 14px;
+            line-height: 2.4;
+        }
+        span {
+            color:$heading_color;
+        }
+    }
+}
+
+/* End Footer 2  */

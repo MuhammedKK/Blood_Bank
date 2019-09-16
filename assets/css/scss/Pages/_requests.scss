@@ -1,0 +1,23 @@
+/* Start Breadcrumbs Section */
+.crumbs {
+    padding:40px 0 20px;
+    .breadcrumb {
+        border:1px solid #ccc;
+        padding:15px 10px;
+    }
+}
+/* End Breadcrumbs Section */
+
+/* Start Pagination Section */
+
+.pagination {
+    li {
+        a {
+            padding: 10px 17px;
+            font-size: 20px;
+            color:$heading_color;
+        }
+    }
+}
+
+/* End Pagination Section */
