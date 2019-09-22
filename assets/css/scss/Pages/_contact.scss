@@ -12,6 +12,7 @@
             border:1px solid #CCC;
             box-shadow: 1px 1px 1px 1px #CCC;
             margin:10px;
+            margin-bottom:40px;
             h3 {
                 background-color:$btn_color;
                 color:#fff;
@@ -70,6 +71,11 @@
                 li {
                     display: inline-block;
                     margin:5px;
+                    position:relative;
+                    transition:all .5s ease-in-out;
+                    &:hover {
+                        bottom:10px;
+                    }
                     a {
                         font-size:40px;
                         transition:all .5s ease-in-out;
@@ -96,9 +102,6 @@
                         &.fa-youtube {
                             background-color:#ff0000;
                             color:#fff
-                        }
-                        &.fa-youtube:hover {
-
                         }
                         &.fa-pinterest {
                             background-color:#bd081c;

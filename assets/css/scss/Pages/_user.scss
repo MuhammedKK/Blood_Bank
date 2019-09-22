@@ -87,36 +87,20 @@ header {
 /* Start About Section */
 
 .about {
-    background:url('../../assets/imgs/about.png') 60%;
-    background-size:cover;
-    padding:40px 0;
+    margin: 5px 0;
+    padding: 40px 0;
+    overflow: hidden;
+    background-image: url('../../assets/imgs/about.png');
+    background-size: cover;
+    background-position: 28%;
     @media #{$mobile_screen} {
-        background-position: 30%;
-        background-repeat: no-repeat;
-        background-size:auto;
         padding:10px 0;
     }
-    @media #{$small_screen} {
-        background-position: 48%;
-    }
-    .about-content {
-        margin-left:10px;
-        text-align: right;
-        padding:0 30px 0 50px;
-        float: right;
-        max-width:50%;
-        @media #{$mobile_screen} {
-            padding: 0; 
-             float: none; 
-            max-width: 100%;
-        }
-        P {
-            font-size:20px;
-            color:$btn_color;
-            @media #{$mobile_screen} {
-                padding: 30px 0;
-            }
-        }
+    p {
+        line-height: 1.9;
+        color:$btn_color;
+        margin-top:50px;
+        font-size:20px;
     }
 }
 

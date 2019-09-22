@@ -178,35 +178,21 @@ header .overlay .header-content p {
 /* End Header Section */
 /* Start About Section */
 .about {
-  background: url("../../assets/imgs/about.png") 60%;
-  background-size: cover;
-  padding: 40px 0; }
+  padding: 40px 0;
+  overflow: hidden; }
 @media (max-width: 767px) {
   .about {
-    background-position: 30%;
-    background-repeat: no-repeat;
-    background-size: auto;
     padding: 10px 0; } }
-@media (min-width: 768px) {
-  .about {
-    background-position: 48%; } }
-.about .about-content {
-  margin-left: 10px;
-  text-align: right;
-  padding: 0 30px 0 50px;
-  float: right;
-  max-width: 50%; }
-@media (max-width: 767px) {
-  .about .about-content {
-    padding: 0;
-    float: none;
-    max-width: 100%; } }
-.about .about-content P {
-  font-size: 20px;
-  color: #485460; }
-@media (max-width: 767px) {
-  .about .about-content P {
-    padding: 30px 0; } }
+.about .about-img {
+  background-image: url("../../assets/imgs/about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%; }
+.about p {
+  line-height: 1.9;
+  color: #485460;
+  margin-top: 50px;
+  font-size: 20px; }
 
 /* End About Section */
 /* Start Articles Section */
@@ -648,7 +634,8 @@ header .overlay .header-content p {
   background-color: #fff;
   border: 1px solid #CCC;
   box-shadow: 1px 1px 1px 1px #CCC;
-  margin: 10px; }
+  margin: 10px;
+  margin-bottom: 40px; }
 .contact-information .contact-boxes .model h3 {
   background-color: #485460;
   color: #fff;
@@ -694,7 +681,11 @@ header .overlay .header-content p {
   margin-bottom: 30px; }
 .contact-information .contact-boxes .model .social li {
   display: inline-block;
-  margin: 5px; }
+  margin: 5px;
+  position: relative;
+  transition: all .5s ease-in-out; }
+.contact-information .contact-boxes .model .social li:hover {
+  bottom: 10px; }
 .contact-information .contact-boxes .model .social li a {
   font-size: 40px;
   transition: all .5s ease-in-out;
@@ -869,35 +860,20 @@ header .overlay .header-content p {
 /* End Header Section */
 /* Start About Section */
 .about {
-  background: url("../../assets/imgs/about.png") 60%;
+  margin: 5px 0;
+  padding: 40px 0;
+  overflow: hidden;
+  background-image: url("../../assets/imgs/about.png");
   background-size: cover;
-  padding: 40px 0; }
+  background-position: 28%; }
 @media (max-width: 767px) {
   .about {
-    background-position: 30%;
-    background-repeat: no-repeat;
-    background-size: auto;
     padding: 10px 0; } }
-@media (min-width: 768px) {
-  .about {
-    background-position: 48%; } }
-.about .about-content {
-  margin-left: 10px;
-  text-align: right;
-  padding: 0 30px 0 50px;
-  float: right;
-  max-width: 50%; }
-@media (max-width: 767px) {
-  .about .about-content {
-    padding: 0;
-    float: none;
-    max-width: 100%; } }
-.about .about-content P {
-  font-size: 20px;
-  color: #485460; }
-@media (max-width: 767px) {
-  .about .about-content P {
-    padding: 30px 0; } }
+.about p {
+  line-height: 1.9;
+  color: #485460;
+  margin-top: 50px;
+  font-size: 20px; }
 
 /* End About Section */
 /* Start Articles Section */
