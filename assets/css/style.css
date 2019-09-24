@@ -139,6 +139,42 @@ p {
 /* End Second Part Of Navbar */
 /* Start Requests Section */
 /* End Requests Section */
+/* Start Loading Page */
+.spinner-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #485460;
+  z-index: 9999; }
+.spinner-box .pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+.spinner-box .pulse-container .pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #c51e1e; }
+.spinner-box .pulse-container .pulse-bubble-1 {
+  animation: pulse .4s ease 0s infinite alternate; }
+.spinner-box .pulse-container .pulse-bubble-2 {
+  animation: pulse .4s ease .2s infinite alternate; }
+.spinner-box .pulse-container .pulse-bubble-3 {
+  animation: pulse .4s ease .4s infinite alternate; }
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1); }
+  to {
+    opacity: .25;
+    transform: scale(0.75); } }
+/* End Loading Page */
 /* Start Header Section */
 header {
   background-image: url("../../assets/imgs/BG.jpg");
